@@ -1,0 +1,25 @@
+declare const MNEMONICA = "Mnemonica";
+declare const MNEMOSYNE = "Mnemosyne";
+declare const GAIA = "Gaia";
+declare const URANUS = "Uranus";
+declare const SymbolDefaultNamespace: unique symbol;
+declare const SymbolSubtypeCollection: unique symbol;
+declare const SymbolConstructorName: unique symbol;
+declare const SymbolGaia: unique symbol;
+declare const TYPE_TITLE_PREFIX = "modificator of : ";
+declare const ErrorMessages: {
+    BASE_ERROR_MESSAGE: string;
+    TYPENAME_MUST_BE_A_STRING: string;
+    HANDLER_MUST_BE_A_FUNCTION: string;
+    WRONG_TYPE_DEFINITION: string;
+    WRONG_INSTANCE_INVOCATION: string;
+    WRONG_MODIFICATION_PATTERN: string;
+    ALREADY_DECLARED: string;
+    EXISTENT_PROPERTY_REDEFINITION: string;
+    WRONG_ARGUMENTS_USED: string;
+    WRONG_HOOK_TYPE: string;
+    MISSING_HOOK_CALLBACK: string;
+    MISSING_CALLBACK_ARGUMENT: string;
+    FLOW_CHECKER_REDEFINITION: string;
+    NAMESPACE_DOES_NOT_EXIST: string;
+};
