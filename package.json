@@ -1,6 +1,6 @@
 {
-  "name": "mnemonica",
-  "version": "0.9.753",
+  "name": "mnemonica-ts",
+  "version": "0.0.1",
   "description": "abstract technique that aids information retention : instance inheritance system",
   "type": "commonjs",
   "main": "./build/index.js",
@@ -23,11 +23,6 @@
     "build": "build/",
     "module": "module/"
   },
-  "contributors": [
-    "laplandin <laplandin.denis@gmail.com>",
-    "petrgrishin <iam@petrgrishin.com>",
-    "Goodluckhf <Goodluckhf@yandex.ru>"
-  ],
   "scripts": {
     "build": "rm -rf ./build && npx tsc --pretty && npm run lint",
     "watch": "npx tsc --pretty -w",
@@ -44,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wentout/mnemonica.git"
+    "url": "git+https://github.com/mythographica/mnemonica-ts.git"
   },
   "keywords": [
     "ETL",
@@ -55,12 +50,12 @@
   "author": "went.out@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wentout/mnemonica/issues"
+    "url": "https://github.com/mythographica/mnemonica-ts"
   },
   "lint-staged": {
     "*.js": "eslint --fix --ignore-path .gitignore"
   },
-  "homepage": "https://github.com/wentout/mnemonica#readme",
+  "homepage": "https://github.com/mythographica/mnemonica-ts",
   "devDependencies": {
     "@types/node": "^13.13.6",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
